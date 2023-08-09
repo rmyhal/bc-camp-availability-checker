@@ -4,7 +4,7 @@ import PushBullet from "pushbullet";
 const pushbulletApiKey = process.env.PUSHBULLET_API_KEY;
 
 test("Birkenhead", async ({ page }) => {
-  await checkPage("Birkenhead", "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483640&mapId=-2147483631&searchTabGroupId=0&bookingCategoryId=0&startDate=2023-08-12&endDate=2023-08-13&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32766&partySize=1&equipmentCapacity=1&filterData=%7B%7D", page);
+  await checkPage("Birkenhead", "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483640&mapId=-2147483631&searchTabGroupId=0&bookingCategoryId=0&startDate=2023-08-12&endDate=2023-08-13&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1&filterData=%7B%7D&equipmentCapacity=1", page);
 });
 
 test("Sasquatch", async ({ page }) => {
